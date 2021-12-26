@@ -3,6 +3,11 @@
     src: url(../fonts/converted-fonts/Spartan-Regular.svg) format("svg"), url(../Fonts/converted-fonts/Spartan-Regular.svg) format("truetype");
     /* Safari, Android, iOS */
 
+ @font-face {
+        font-family: 'Spartan-Regular';
+        src: url(../fonts/converted-fonts/Spartan-Regular.svg) format("svg"), url(../Fonts/converted-fonts/Spartan-Regular.ttf) format("truetype");
+        /* Safari, Android, iOS */
+      }
       
     *{
         font-family: 'Spartan-Regular';
