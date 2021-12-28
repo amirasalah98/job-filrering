@@ -43,8 +43,8 @@
         box-shadow: hsl(180, 29%, 50%) 10px 15px 20px -20px; 
     }
     .main-flex:hover{
-        transform: scale(.9);
-        transition: 0.3s;
+        /* transform: scale(.9); */
+        /* transition: 0.3s; */
         cursor: pointer;
         border-left:solid 5px hsl(180, 29%, 50%);
     }
@@ -148,7 +148,7 @@
             line-height: 20px;
         }
         #showArea{
-            width: 88.8% !important;
+            width: 90% !important;
             left: 5.3% !important;
             /* top: 35% !important; */
         }
@@ -221,36 +221,45 @@
         height: 80px;
         margin: auto;
         position: absolute;
-        top: 30%;
+        top: 130px;
         left: 10%;
         z-index: 1;
         background-color: white;
         box-shadow: hsl(180, 29%, 50%) 10px 15px 20px -20px; 
         border-radius: 7px;
+        overflow-wrap: break-word;
+
+        
     /*  */
     }
     .main-display{
         display: none;
     }
     #all{
-        margin: 0px 40px 0px 40px;
+        margin: 30px 40px 0px 40px;
         display: flex;
         align-content: center;
-        justify-content: space-between;
+        /* justify-content: space-between; */
     }
     #allCatg{
         display: flex;
         justify-content: flex-start;
+        /* align-items: center; */
+        padding-right: 10px;
+        /* padding: 30px; */
         
     }
     #eachCategory{
         color: hsl(180, 29%, 50%);
         background-color:hsl(180, 31%, 95%) ;
-        position: relative;
+        /* position: relative; */
         font-weight: 700;
         /* width: 40%; */
         /* margin-right: 40px; */
-        align-self: center;
+        
+        /* align-self: center; */
+        /* display: flex;
+        justify-content:flex-start; */
         /* gap: 5px; */
     }
     #clearAll {
@@ -258,13 +267,18 @@
         color:hsl(180, 29%, 50%);
         font: bold;
         font-weight: 700;
+        position: absolute;
+        right: 50px;
+        /* margin-right: 40px; */
+        /* display: flex;
+        justify-content:flex-end; */
     }
     
     .clearThis{
         background-color:hsl(180, 31%, 95%) ;
         /* background-color: hsl(180, 29%, 50%);
         cursor: pointer; */
-        padding: 10px;
+        /* padding: 10px; */
         /* color:hsl(180, 31%, 95%) ; */
         /* width: 20px;
         height: 20px; */
