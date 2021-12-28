@@ -88,7 +88,7 @@
         font-size: 12px;
         font-weight: 700;
     }
-    .gray{
+    .gray,.location{
         color: hsl(180, 8%, 52%);
     }
     .ago{
@@ -100,10 +100,7 @@
         margin: 0px 10px 0px 10px;
         display: inline-block;
     }
-    .location{
-        margin-left: 10px;
-        display: inline-block;
-    }
+    
     .content-right{
         width: 40%;
         margin-right: 40px;
@@ -232,6 +229,9 @@
         border-radius: 7px;
     /*  */
     }
+    .main-display{
+        display: none;
+    }
     #all{
         margin: 0px 40px 0px 40px;
         display: flex;
@@ -239,17 +239,19 @@
         justify-content: space-between;
     }
     #allCatg{
+        display: flex;
+        justify-content: flex-start;
         
     }
     #eachCategory{
         color: hsl(180, 29%, 50%);
         background-color:hsl(180, 31%, 95%) ;
-        /* position: relative; */
+        position: relative;
         font-weight: 700;
-        width: 40%;
-        margin-right: 40px;
+        /* width: 40%; */
+        /* margin-right: 40px; */
         align-self: center;
-        gap: 5px;
+        /* gap: 5px; */
     }
     #clearAll {
         text-decoration: none;
@@ -259,11 +261,20 @@
     }
     
     .clearThis{
-        cursor: pointer;
+        background-color:hsl(180, 31%, 95%) ;
+        /* background-color: hsl(180, 29%, 50%);
+        cursor: pointer; */
         padding: 10px;
-        font-size: 20px;
-        width: 20px;
-        height: 20px;
+        /* color:hsl(180, 31%, 95%) ; */
+        /* width: 20px;
+        height: 20px; */
         /* position: absolute; */
+        /* left: 5px; */
     
+    }
+    .clearThis:hover{
+        background-color: hsl(180, 29%, 50%);
+        color:hsl(180, 31%, 95%) ;
+        cursor: pointer;
+
     }
